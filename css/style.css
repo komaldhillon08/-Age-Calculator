@@ -7,5 +7,62 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg #4203a9 , #90bafc);
+    background: linear-gradient(135deg ,  #4203a9 , #90bafc);
+    color: white;
+    padding: 10px;
+}
+.calculator{
+    width: 100%;
+    max-width: 600px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.calculator h2 {
+    font-size: 60px
+}
+.calculator h2 span{
+    color: #ffff70;
+}
+.input-box{
+    margin: 40px 0px;
+    padding: 35px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.3);    
+    display: flex;
+    align-items: center;
+}
+.input-box input{
+    flex: 1;
+    margin-right: 20px;
+    padding: 14px 20px;
+    border: 0px;
+    outline: 0px;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;    
+}
+.input-box button{
+   cursor: pointer;
+    margin-right: 20px;
+    padding: 14px 20px;
+    border: 0px;
+    outline: 0px;
+    font-size: 18px;
+    border-radius: 5px;
+      font-weight: bold;
+      background: #ffff70;
+}
+.input-box input::-webkit-calendar-picker-indicator {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-position: calc(100% - 10px);
+    background-size: 30px;
+    cursor: pointer;
+  
+    background-repeat: no-repeat;
 }
