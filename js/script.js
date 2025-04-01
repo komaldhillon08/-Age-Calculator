@@ -40,7 +40,7 @@ function calculatorAge() {
         m3 = 11 ;
         y3--;
     }
-    result.innerHTML = `Your are ${y3} years , ${m3} month and , ${d3} days old`;
+    result.innerHTML = `Your are <span> ${y3} </span> years , <span>${m3} </span> month and , <span>${d3}</span> days old`;
     
 }
 function getDayInMonth( year , month) {
